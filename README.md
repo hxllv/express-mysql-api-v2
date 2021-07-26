@@ -1,6 +1,6 @@
 # Node.js, Express, MySQL RESTful API
 
-Simple restful API. Uses the "mysql2" package for database connection and "joi" for data validation.
+Simple RESTful API. Uses the "mysql2" package for database connection and "joi" for data validation.
 
 Should (technically) be useable with any database (as long as data validation is disabled, more [below](https://github.com/hxllv/express-mysql-api-v2#data-validation)).
 
