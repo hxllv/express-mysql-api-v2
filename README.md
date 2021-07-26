@@ -2,7 +2,7 @@
 
 Simple restful API. Uses the "mysql2" package for database connection and "joi" for data validation.
 
-Should (technically) be useable with any database (as long as data validation is disabled, more below).
+Should (technically) be useable with any database (as long as data validation is disabled, more [below](https://github.com/hxllv/express-mysql-api-v2#data-validation)).
 
 Initialize with `node i` and run with `node .`.
 
@@ -16,7 +16,7 @@ Initialize with `node i` and run with `node .`.
 Below are the main points to take in for the proper usage of the API. If any of the three conditions are not met, the API may not work as expected.
 
 - The API expects tables to have their respectable primary keys set automatically (via AUTO_INCREMENT or something similar). This can of course be changed as you wish.
-- The API expects the column name for the primary key column of each table to be in the format of `id_table_name` (eg. table "items" has primary key `id_items`). The same goes for foreign keys.
+- The API expects the column name for the primary key column of each table to be in the format of `id_table_name` (eg. table "items" has primary key `id_items`).
 - For POST and PUT, the API expects the keys of the properties within the HTTP body to **_EXACTLY MATCH_** the name of the columns within the tables.
 
 ## Personalization
